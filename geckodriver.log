@@ -1,0 +1,33 @@
+1649087087189	geckodriver	INFO	Listening on 127.0.0.1:49414
+1649087087737	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49415" "-no-remote" "-profile" "C:\\Users\\Main\\AppData\\Local\\Temp\\rust_mozprofilemmJJhD"
+1649087088537	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Main\\AppData\\Local\\Temp\\rust_mozprofilemmJJhD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49415/devtools/browser/e2ff54c0-5352-4214-9071-aa755bb6b313
+1649087093303	Marionette	INFO	Listening on port 49418
+1649087093672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1648244899, line 6286: unreachable code after return statement
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1648244899, line 6102: Error: Expected: '<assignment:568645>' to be present in the adapter provided payload, but it was not found.
+1649087106230	Marionette	INFO	Stopped listening on port 49418
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1649087412322	geckodriver	INFO	Listening on 127.0.0.1:49775
+1649087412346	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49776" "-no-remote" "-profile" "C:\\Users\\Main\\AppData\\Local\\Temp\\rust_mozprofileThtAJB"
+1649087412969	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Main\\AppData\\Local\\Temp\\rust_mozprofileThtAJB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49776/devtools/browser/9ea19229-9705-4264-88db-25c2ff3061cd
+1649087417138	Marionette	INFO	Listening on port 49779
+1649087417221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1649087418854	Marionette	INFO	Stopped listening on port 49779
